@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "EL-kharef";
-  src: url(../fonts/El-kharef.ttf);
+  font-family: "Abdoullah Ashgar EL-kharef";
+  src: url("/fonts/Abdoullah Ashgar EL-kharef.ttf");
 }
 :root {
   scroll-behavior: smooth;
-  font-family: "Mulish", sans-serif;
+  font-family: "Mulish", "Abdoullah Ashgar EL-kharef", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -17,7 +17,6 @@ body {
   min-width: 320px;
   min-height: 100vh;
   position: relative;
-  padding: 200px 100px;
   &::after {
     content: "";
     position: absolute;
@@ -35,8 +34,4 @@ body {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-.title {
-  font-family: "EL-kharef";
 }
